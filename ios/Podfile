@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'CoreProjectSachKo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for CoreProjectSachKo
+  pod 'Firebase/Core'
+
+
+  target 'CoreProjectSachKoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'CoreProjectSachKo-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for CoreProjectSachKo-tvOS
+
+  target 'CoreProjectSachKo-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
